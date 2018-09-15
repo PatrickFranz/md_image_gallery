@@ -70,35 +70,35 @@ input:checked + div + label{
 
 @media (max-width: 768px){
   #img1:checked + div{
-  background-image: url(https://static.pexels.com/photos/24353/pexels-photo.jpg);
-  background-size: cover;
+  background-image: url("../img/1-kartik-bhattacharjee-257547-unsplash.jpg");
+  background-size: contain;
   background-repeat: no-repeat;
   opacity: 1;
 }
 
 #img2:checked + div{
-  background-image: url(https://static.pexels.com/photos/2394/lights-clouds-dark-car.jpg);
-  background-size: cover;
+  background-image: url("../img/2-vlad-sorodoc-49620-unsplash.jpg");
+  background-size: contain;
   background-repeat: no-repeat;
   opacity: 1;
 }
 
 #img3:checked + div{
-  background-image: url(https://static.pexels.com/photos/26796/pexels-photo.jpg);
-  background-size: cover;
+  background-image: url("../img/3-benjamin-child-32498-unsplash.jpg");
+  background-size: contain;
   background-repeat: no-repeat;
   opacity: 1;
 }
 
 #img4:checked ~ div{
-  background-image: url(https://static.pexels.com/photos/2394/lights-clouds-dark-car.jpg);
+  background-image: url("../img/4-grahame-jenkins-342518-unsplash.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   opacity: 1;
 }
 
 #img5:checked ~ div{
-  background-image: url(https://static.pexels.com/photos/116675/pexels-photo-116675.jpeg);
+  background-image: url("../img/5-matt-henry-59403-unsplash.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   opacity: 1;
